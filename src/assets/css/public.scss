@@ -1,0 +1,199 @@
+$c-main: #e14a21;
+$c-mainone: #ee7800;
+$c-333: #333;
+$c-666: #666;
+$c-999: #999;
+$c-eee: #eee;
+$c-ccc: #ccc;
+$c-yellow: #fabe00;
+$c-blue: #1296db;
+$c-fff: #ffffff;
+$c-green:#179253;
+
+.c-red {
+  color: red;
+}
+.c-green {
+  color: #{$c-green}
+}
+.c-mainOne {
+  color: #{$c-mainone};
+}
+
+.c-main {
+  color: #{$c-main};
+}
+
+.c-fff {
+  color: #{$c-fff};
+}
+
+.c-yellow {
+  color: #{$c-yellow};
+}
+
+.c-blue {
+  color: #{$c-blue};
+}
+
+.c-333 {
+  color: #{$c-333};
+}
+
+.c-666 {
+  color: #{$c-666};
+}
+
+.c-999 {
+  color: #{$c-999};
+}
+
+.c-eee {
+  color: #{$c-eee};
+}
+
+.c-ccc {
+  color: #{$c-ccc};
+}
+
+.bg-main {
+  background-color: #{$c-main};
+}
+
+.bg-mainOne {
+  background-color: #{$c-mainone};
+}
+
+.bg-yellow {
+  background-color: #{$c-yellow};
+}
+
+.bg-fff {
+  background-color: #{$c-fff};
+}
+
+.bg-blue {
+  background-color: #{$c-blue};
+}
+
+.bg-f5 {
+  background-color: #f5f5f5;
+}
+
+@for $fsSize from 0 through 40 {
+  .fs#{$fsSize} {
+    font-size: #{$fsSize/100}rem;
+  }
+}
+
+@for $rem from 0 through 200 {
+  .pd#{$rem} {
+    padding: #{$rem/100}rem;
+  }
+
+  .pl#{$rem} {
+    padding-left: #{$rem/100}rem;
+  }
+
+  .pr#{$rem} {
+    padding-right: #{$rem/100}rem;
+  }
+
+  .pt#{$rem} {
+    padding-top: #{$rem/100}rem;
+  }
+
+  .pb#{$rem} {
+    padding-bottom: #{$rem/100}rem;
+  }
+
+  .mg#{$rem} {
+    margin: #{$rem/100}rem;
+  }
+
+  .ml#{$rem} {
+    margin-left: #{$rem/100}rem;
+  }
+
+  .mr#{$rem} {
+    margin-right: #{$rem/100}rem;
+  }
+
+  .mt#{$rem} {
+    margin-top: #{$rem/100}rem;
+  }
+
+  .mb#{$rem} {
+    margin-bottom: #{$rem/100}rem;
+  }
+
+  .w#{$rem} {
+    width: #{$rem/100}rem;
+  }
+
+  .h#{$rem} {
+    height: #{$rem/100}rem;
+  }
+}
+
+.wAuto {
+  width: auto;
+}
+
+.flex2part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// .btn-radius {
+//   display: block;
+//   width: 6.17rem;
+//   margin: 0 auto 0;
+//   border-radius: 10rem;
+//   background-color: #e15132;
+//   text-align: center;
+//   font-size: 0.36rem;
+//   color: #fff;
+//   &.bg-yellow {
+//     background-color: #{$c-yellow};
+//     border-color:  #{$c-yellow};
+//   }
+// }
+.btn-radius {
+  display: block;
+  width: 6.17rem;
+  margin: 0 auto 0;
+  border-radius: 10rem;
+  background-color: #179253;
+  text-align: center;
+  font-size: 0.36rem;
+  color: #fff;
+
+  &.bg-yellow {
+    background-color: #{$c-green};
+    border-color: #{$c-green};
+  }
+}
+
+.borderB {
+  border-bottom: 1px solid #eee;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}

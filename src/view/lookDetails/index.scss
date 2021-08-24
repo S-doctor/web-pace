@@ -1,0 +1,15 @@
+ul{
+  min-height: 80vh;
+  border: 3px solid red;
+  border-radius: 5%;
+  margin: 0.3rem;
+  li{
+    font-size: 0.3rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    span:nth-child(3){
+      color: red;
+    }
+  }
+}
